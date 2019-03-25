@@ -1,4 +1,2 @@
-spring.profiles.active=local
-server.port=8011
-
-log.level.root=debug
+  profiles:
+    active: local

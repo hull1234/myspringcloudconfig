@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ac9be4-7a77-4de9-8bb9-a5452330f4fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hll/dev/config-client-dev.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hll/dev/application.yml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hll/demo1/client-a-dev.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +24,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config-client-dev.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config-client-dev.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hll/dev/config-client-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client-a-dev.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hll/demo1/client-a-dev.properties">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -85,6 +97,8 @@
         <option value="$PROJECT_DIR$/src/hll/application-test2.yml" />
         <option value="$PROJECT_DIR$/src/hll/dev/ab.yml.fxml" />
         <option value="$PROJECT_DIR$/src/hll/dev/application.yml" />
+        <option value="$PROJECT_DIR$/src/hll/demo1/client-a-dev.properties.fxml" />
+        <option value="$PROJECT_DIR$/src/hll/demo1/client-a-dev.properties" />
       </list>
     </option>
   </component>
@@ -102,11 +116,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1833" />
-    <option name="y" value="155" />
-    <option name="width" value="1550" />
-    <option name="height" value="838" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1929" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,6 +164,13 @@
               <item name="myspringcloudconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hll" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringcloudconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringcloudconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hll" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,8 +199,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\study\myspringcloudconfig\myspringcloudconfig\src\hll\dev" />
       <recent name="F:\study\myspringcloudconfig\myspringcloudconfig\src\hll" />
+      <recent name="F:\study\myspringcloudconfig\myspringcloudconfig\src\hll\dev" />
       <recent name="F:\study\myspringcloudconfig\myspringcloudconfig\src\hll\test" />
     </key>
   </component>
@@ -288,15 +309,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553500634717</updated>
-      <workItem from="1553500636340" duration="3413000" />
+      <workItem from="1553500636340" duration="4463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3413000" />
+    <option name="totallyTimeSpent" value="4463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1833" y="155" width="1550" height="838" extended-state="0" />
+    <frame x="-1929" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -308,10 +329,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43175074" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32550335" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31571814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -395,13 +416,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hll/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hll/dev/config-client-dev.properties">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hll/demo1/client-a-dev.properties">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
         </state>
       </provider>
